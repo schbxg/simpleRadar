@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DigitalStatic">
+      <UniqueIdentifier>{4a300639-b8b2-425f-930b-25f42d983191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChartCtrl">
+      <UniqueIdentifier>{3a55a56e-3367-4515-b15a-26ddb311795e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\SimpleInsectRadar.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SimpleInsectRadar.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="DigitalStatic\how to use.txt" />
+    <None Include="ChartCtrl\ChartBalloonLabel.inl">
+      <Filter>ChartCtrl</Filter>
+    </None>
+    <None Include="ChartCtrl\ChartLabel.inl">
+      <Filter>ChartCtrl</Filter>
+    </None>
+    <None Include="ChartCtrl\ChartPointsArray.inl">
+      <Filter>ChartCtrl</Filter>
+    </None>
+    <None Include="ChartCtrl\ChartSerieBase.inl">
+      <Filter>ChartCtrl</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SimpleInsectRadar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleInsectRadarDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FormDlg1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitalStatic\Digistatic.h">
+      <Filter>DigitalStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitalStatic\Curvefit.h">
+      <Filter>DigitalStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitalStatic\MemDC.h">
+      <Filter>DigitalStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitalStatic\Rgbcolor.h">
+      <Filter>DigitalStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FormDlg2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ParaConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Allocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FIFO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Heap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DSPF_sp_ifftSPxSP_cn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PullFileCfg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FormDlg3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FormDlg4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartAxis.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartAxisLabel.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartBalloonLabel.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartBarSerie.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartCandlestickSerie.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartCrossHairCursor.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartCtrl.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartCursor.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartDateTimeAxis.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartDragLineCursor.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartFont.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartGanttSerie.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartGradient.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartGrid.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartLabel.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartLegend.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartLineSerie.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartLogarithmicAxis.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartMouseListener.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartPointsArray.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartPointsSerie.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartScrollBar.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartSerie.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartSerieBase.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartSeriesMouseListener.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartStandardAxis.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartString.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartSurfaceSerie.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartTitle.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartXYSerie.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\PointsOrdering.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="FormDlg5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CLogFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libfunc_Playback_VerticalLookingMode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Date_translate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SimpleInsectRadar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleInsectRadarDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FormDlg1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitalStatic\Curvefit.cpp">
+      <Filter>DigitalStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitalStatic\Digistatic.cpp">
+      <Filter>DigitalStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FormDlg2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ParaConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DSPF_sp_ifftSPxSP_cn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PullFileCfg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FormDlg3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FormDlg4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartAxis.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartAxisLabel.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartBarSerie.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartCandlestickSerie.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartCrossHairCursor.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartCtrl.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartCursor.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartDateTimeAxis.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartDragLineCursor.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartFont.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartGanttSerie.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartGradient.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartGrid.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartLegend.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartLineSerie.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartLogarithmicAxis.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartPointsSerie.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartScrollBar.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartSerie.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartStandardAxis.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartSurfaceSerie.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartTitle.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartXYSerie.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="FormDlg5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CLogFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CommFun.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SimpleInsectRadar.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

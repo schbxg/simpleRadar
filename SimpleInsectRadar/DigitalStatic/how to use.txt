@@ -1,0 +1,6 @@
+How to use (in a dialog):Add digistatic.h, digistatic.cpp, memdc.h, curvefit.h, curvefit.cpp and rgbcolor.h to your project environment. 
+Add a static control to your dialog resource. 
+Change its ID to something like IDC_LEDTEXT, open class-wizard and assign a member variable, type control (CStatic) to it (m_LedText for example). 
+Open your dialog class's header file. Add #include "digistatic.h". Find the line CStatic m_LedText and replace the CStatic by CDigiStatic. 
+In OnInitDialog() you can give it some text with SetText(), change the colors with SetColor() or for the background SetBkColor(). Or, you can set the right style with ModifyDigistyle(). 
+Compile and run. 

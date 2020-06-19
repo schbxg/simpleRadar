@@ -1,0 +1,7 @@
+char Data_input[] = {".//123.bin"};
+	//INT32 nlen_Data_input = sizeof(Data_input);
+	long long nLen_Data = 3872388;//58982400;//23592960;			//数组长度为读取map.out文件大小
+	UINT32 *pData_out = new UINT32[nLen_Data/4];
+	FILE *pFile_ClutterMapFile = fopen(Data_input, "rb+");
+	fread(pData_out, 4, nLen_Data/4, pFile_ClutterMapFile);
+	fclose(pFile_ClutterMapFile);
